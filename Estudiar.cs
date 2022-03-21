@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ExamenParcial
 {
-    internal class Estudiantee
+    internal class Estudiar
     {
-        public string nombre { get; set; }
         public string carnet { get; set; }
-
-        public int numerodealumnos { get; set;  }
+        public string gradoinicial { get; set; }
+        public string gradofinal { get; set; }
+        public string fechadeinscripcion { get; set; }
     }
 }
